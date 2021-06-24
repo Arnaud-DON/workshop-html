@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+
+<style>
+ul {
+	list-style: lower-greek;
+}
+
+.circle{
+	list-style-type: circle;
+}
+
+li h1{
+	font-size: 12pt;
+	font-variant-caps: small-caps;
+	margin-bottom: 0px;
+}
+
+li h2{
+	font-size: 12pt;
+	font-style: italic;
+	font-weight: inherit;
+	text-indent: 2em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h2 + h1 {
+	margin-top: 0px;
+}
+
+h2 + h1 + h2 {
+	margin-bottom: 10px;
+}
+
+</style>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initialscale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Exercice 3</title>
+</head>
+<body>
+	<ul>
+		<li>Elément 1 de la liste numérotée
+			<ul class="circle">
+				<li>Texte 1 de liste nom numérotée
+					<h1>Terme 1</h1>
+					<h2>Définition 1</h2>
+					<h1>Terme 2</h1>
+					<h2>Définition 2</h2>
+				</li>
+				<li>Texte 2</li>
+				<li>Texte 3</li>
+				<li>Texte 4</li>
+			</ul>
+		</li>
+		<li>Elément 2 de la liste numérotée
+			<ul>
+				<li>Message 1</li>
+				<li>Message 2</li>
+				<li>Message 3</li>
+			</ul>
+		</li>
+	</ul>
+</body>
+</html>
